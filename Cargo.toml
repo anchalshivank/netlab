@@ -1,0 +1,10 @@
+[package]
+name = "NATConfig"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libp2p = "0.42"  # Adjust to the latest version if needed
+async-std = "1.10"
+futures = "0.3"
+tokio = { version = "1", features = ["full"] }
